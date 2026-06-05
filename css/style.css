@@ -26,8 +26,7 @@ h1 {
   text-align: center;
 }
 
-p{
-    
+p {
 }
 
 .container {
@@ -47,7 +46,7 @@ p{
 }
 
 .texto2 {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   line-height: 1.25;
   max-width: 40ch;
@@ -76,4 +75,28 @@ p{
   display: flex;
   justify-self: center;
   margin-bottom: 60px;
+}
+
+.presente2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 50px 0;
+}
+
+.presente2 a {
+  text-decoration: none;
+  color: #ffd6d6;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  background: linear-gradient(#e52b2b, #991b1b);
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.video {
+  display: grid;
+  max-width: 80%;
+  place-self: center;
 }
